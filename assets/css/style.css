@@ -78,8 +78,8 @@ a:hover{color:#fff}
 
 /* Styles for project images within the modal */
 .m-project .project-img {
-  width: 400px; /* Set desired width */
-  height: 200px; /* Set desired height */
+  width: 100%; /* Make image fill the container width */
+  aspect-ratio: 2 / 1; /* Maintain the 400x200 proportion dynamically */
   overflow: hidden; /* Ensure image doesn't spill outside the container */
   margin-bottom: 10px; /* Add some space below the image */
   border-radius: 8px; /* Optional: for consistent styling */
